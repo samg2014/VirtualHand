@@ -1,4 +1,4 @@
-# VirtualHand - for the overland server
+# VirtualHand
 
 ## Environmental Variables Required to Run:
 - ADMIN_INITIAL_PASSWORD : The initial password for the administrator account (currently unused)
