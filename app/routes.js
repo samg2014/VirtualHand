@@ -120,8 +120,8 @@ module.exports = function (app, passport) {
 	});
 
 	app.get('/', function (req, res) {
-		//res.redirect('/login');
-		res.send(renderFile(templates.landing, {}));
+		res.redirect('/login');
+		//res.send(renderFile(templates.landing, {}));
 	});
 
 	app.get('/login', isNotLoggedIn, function (req, res) {
